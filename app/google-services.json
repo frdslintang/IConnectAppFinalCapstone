@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1030618001858",
+    "project_id": "myiconnect",
+    "storage_bucket": "myiconnect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030618001858:android:c310719e6cc190668da65b",
+        "android_client_info": {
+          "package_name": "com.dicoding.myiconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030618001858-8do4jfopchcm6jbsv6ic3j0jvc8p2s4h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dicoding.myiconnect",
+            "certificate_hash": "2697b60ed0454cf87f4602249f2cae3827b95f16"
+          }
+        },
+        {
+          "client_id": "1030618001858-fjbqv7nf7m68t6pq9r3apk75a1g2inm8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDs6la1LcXzaxg-Ovzdn49p4N2ksn8_NBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030618001858-fjbqv7nf7m68t6pq9r3apk75a1g2inm8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

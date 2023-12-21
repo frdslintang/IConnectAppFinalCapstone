@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/home_fragment_container"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/green_circle"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/cardview1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="0dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="20dp"
+                    android:padding="16dp">
+
+
+                    <!-- Welcome Text -->
+                    <ImageView
+                        android:id="@+id/icon_image"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@color/white"
+                        android:src="@drawable/avatar"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/welcome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@id/icon_image"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="Selamat datang"
+                        android:textColor="@color/green_primary"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:layout_marginHorizontal="10dp"
+
+                        app:layout_constraintStart_toEndOf="@+id/icon_image"
+                        app:layout_constraintTop_toTopOf="@+id/icon_image" />
+
+                    <!-- User's Name -->
+                    <TextView
+                        android:id="@+id/edt_name"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:layout_toEndOf="@id/icon_image"
+                        android:fontFamily="@font/poppins_bold"
+                        android:text="Windah Basudara"
+                        android:maxLines="1"
+                        android:textColor="@color/green_primary"
+                        android:textSize="23sp"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="@+id/icon_image"
+                        app:layout_constraintStart_toEndOf="@+id/icon_image" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/materialCardView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/cardview1"
+                    android:layout_marginHorizontal="5dp"
+                    app:strokeColor="@color/green_secondary"
+                    app:strokeWidth="1dp"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="15dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <!-- Judul Card -->
+                        <TextView
+                            android:id="@+id/textTitle"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingHorizontal="16dp"
+                            android:paddingTop="16dp"
+                            android:paddingBottom="0dp"
+                            android:text="Apa itu BISINDO?"
+                            android:textColor="@color/green_secondary"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <!-- Deskripsi Card -->
+                        <TextView
+                            android:id="@+id/textDescription"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingHorizontal="16dp"
+                            android:paddingTop="8dp"
+                            android:paddingBottom="16dp"
+                            android:text="Bahasa Isyarat Indonesia adalah bahasa isyarat yang sering ditemukan di kalangan Teman Tuli maupun Teman Inklusi pengguna bahasa isyarat. BISINDO dibentuk oleh kelompok Tuli dan muncul secara alami berdasarkan pengamatan Teman Tuli. Maka dari itu, BISINDO memiliki variasi “dialek” di berbagai daerah. BISINDO disampaikan dengan gerakan dua tangan."
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="@color/green_secondary"
+                            android:textSize="12sp"
+                            app:layout_constraintTop_toBottomOf="@id/textTitle" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <androidx.core.widget.NestedScrollView
+                    android:id="@+id/nested"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintTop_toBottomOf="@+id/materialCardView"
+                    tools:layout_editor_absoluteX="0dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="vertical"
+                        app:layout_constraintTop_toBottomOf="@id/cardview1">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:padding="10dp"
+                            android:text="Kosakata yang Sering Digunakan"
+                            android:textColor="@color/green_primary"
+                            android:textSize="20sp"
+                            app:layout_constraintTop_toBottomOf="@id/cardview1" />
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/rv_baju"
+                            android:layout_width="390dp"
+                            android:layout_height="267dp"
+                            tools:listitem="@layout/item_produk" />
+
+                    </LinearLayout>
+
+                </androidx.core.widget.NestedScrollView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_translate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="@color/green_4"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="10dp"
+                    android:layout_marginHorizontal="5dp"
+
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/nested"
+                    android:layout_marginTop="0dp">
+
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:background="@color/green_4"
+                        android:backgroundTint="#58A700">
+                        <ImageView
+                            android:id="@+id/group_4"
+                            android:layout_width="126dp"
+                            android:layout_height="147dp"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginEnd="4dp"
+                            android:src="@drawable/deviceperson"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:layout_constraintVertical_bias="0.25" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/checkTranslateButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="43sp"
+                            android:backgroundTint="@color/white"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:paddingHorizontal="10dp"
+                            android:text="Coba Sekarang"
+                            android:letterSpacing="0.01"
+                            android:textAllCaps="false"
+                            android:textColor="@color/green_primary"
+                            android:textSize="15sp"
+                            app:cornerRadius="15dp"
+                            app:layout_constraintStart_toStartOf="@+id/textView6"
+                            app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="225dp"
+                            android:layout_height="84dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="12dp"
+                            android:text="@string/translate_text"
+                            android:gravity="center_vertical"
+                            android:textColor="@color/white"
+                            android:textSize="17sp"
+                            android:textStyle="bold"
+                            android:fontFamily="@font/poppins_semibold"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card_dictionary"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:cardBackgroundColor="@color/green_secondary"
+                    app:cardCornerRadius="15dp"
+                    app:cardElevation="34dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/card_translate"
+                    android:layout_marginTop="17dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginHorizontal="5dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="459dp"
+                        android:layout_height="150dp"
+                        android:background="@color/green_secondary"
+                        >
+
+                        <ImageView
+                            android:id="@+id/group_3"
+                            android:layout_width="102dp"
+                            android:layout_height="140dp"
+                            android:layout_marginEnd="96dp"
+                            android:src="@drawable/jgppeople"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/checkDictionaryButton"
+                            android:layout_width="wrap_content"
+                            android:layout_height="43sp"
+                            android:backgroundTint="@color/white"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:letterSpacing="0.01"
+                            android:paddingHorizontal="10dp"
+                            android:text="Cek Kamus"
+                            android:textAllCaps="false"
+                            android:textColor="@color/green_primary"
+                            android:textSize="15sp"
+                            app:cornerRadius="15dp"
+                            app:layout_constraintStart_toStartOf="@+id/textView4"
+                            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="225dp"
+                            android:layout_height="84dp"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="16dp"
+                            android:text="@string/get_to"
+                            android:textColor="@color/white"
+                            android:fontFamily="@font/poppins_semibold"
+                            android:textSize="17sp"
+                            android:textStyle="bold"
+                            android:gravity="center_vertical"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

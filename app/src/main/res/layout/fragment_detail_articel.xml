@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
+        android:layout_alignParentTop="true">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/arrow_back"
+            android:onClick="onBackButtonClick"
+            android:padding="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/title_artikel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Artikel"
+            android:textColor="@color/green_secondary"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:scrollbars="none"
+        >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            >
+
+            <ImageView
+                android:id="@+id/iv_detail_photo"
+                android:layout_width="0dp"
+                android:layout_height="300dp"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintDimensionRatio="16:9" />
+
+            <TextView
+                android:id="@+id/tv_detail_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:fontFamily="@font/poppins_bold"
+                app:layout_constraintStart_toStartOf="parent"
+                android:textColor="@color/black"
+                android:justificationMode="inter_word"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/iv_detail_photo"
+                app:layout_constraintVertical_chainStyle="packed"
+                android:layout_marginTop="16dp"
+                android:text="Cerita Salsa Latih Anak
+Disabilitas BISINDO"/>
+
+            <TextView
+                android:id="@+id/tv_detail_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:fontFamily="@font/poppins_regular"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_detail_title"
+                android:justificationMode="inter_word"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam hendrerit quam eu ante aliquet, in malesuada felis convallis. Duis id velit in lacus tincidunt malesuada eu ac libero. Etiam id vehicula metus. Fusce quis ullamcorper dolor, id tempus justo. Nullam quis neque auctor, tincidunt arcu sit amet, tincidunt justo. Sed eu arcu euismod, ullamcorper turpis eu, euismod orci. Aliquam erat volutpat. Nam dapibus justo ut nisi dictum lacinia. Vivamus et scelerisque felis. Suspendisse potenti. Maecenas eget mi sed nunc vehicula gravida. Nullam sed quam nec justo cursus luctus."/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/action_share"
+                android:layout_width="134dp"
+                android:layout_height="52dp"
+                android:text="Bagikan"
+                android:textAllCaps="false"
+                android:textSize="15sp"
+                android:fontFamily="@font/poppins_semibold"
+                android:paddingVertical="10dp"
+                android:gravity="center"
+                android:textColor="@android:color/white"
+                android:letterSpacing="0.08"
+                app:cornerRadius="10dp"
+
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tv_detail_description"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="50dp"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</RelativeLayout>

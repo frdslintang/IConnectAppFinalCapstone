@@ -1,0 +1,205 @@
+<resources>
+    <string name="app_name">IConnect</string>
+    <string name="signup">Daftar</string>
+    <string name="login">Masuk</string>
+    <string name="message_welcome_page">Belajar Bahasa Isyarat Dengan Menyenangkan Bersama IConnect!</string>
+    <string name="title_welcome_page">Selamat datang diIConnect!</string>
+    <string name="title_signup_page">Signup</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="message_login_page">Masukkan dulu datamu ya</string>
+    <string name="title_login_page">Login</string>
+    <string name="name">Nama</string>
+    <string name="message_main_page">Siap Untuk Belajar!.</string>
+    <string name="greeting">Halo %1$s,</string>
+    <string name="error_message">Terjadi kesalahan pada server kami.\nMohon coba lagi nanti.</string>
+    <string name="ok">Oke</string>
+    <string name="error_validation">Please make sure all the input field is correct!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="register">Don\'t have an account? Register</string>
+    <string name="ConfirmPassword">Confirm Password</string>
+    <string name="register_successful">Account was successfully registered</string>
+    <string name="name_cannot_empty">Name cannot be empty</string>
+    <string name="email_cannot_empty">Email cannot be empty</string>
+    <string name="password_minimum">Paasword Should Be 8 Character Minimum</string>
+    <string name="have_account">Already have an account?</string>
+    <string name="login_Awal">Get Started</string>
+    <string name="imageview">Image View</string>
+    <string name="description">Add a description</string>
+    <string name="Login">Login</string>
+    <string name="register_Awal">Register</string>
+    <string name="Register">Register</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hometext">Welcome To IConnect</string>
+    <string name="articel_tittle">Judul Artikel</string>
+    <string name="default_web_client_id">web client</string>
+    <string name="enter_description">Masukkan Deskripsi Huruf/Kata</string>
+    <string name="gallery">Gallery</string>
+    <string name="camera">Camera</string>
+    <string name="addstory">Tambahkan Kamus</string>
+    <string name="Kata">Kata</string>
+    <string name="what_is_bisindo">What Is BISINDO?</string>
+    <string name="pengertian">Indonesian Sign Language, or Bahasa Isyarat Indonesia (BISINDO) is any of several related deaf sign languages of Indonesia, at least on the island of Java. It is based on American Sign Language, with local admixture in different cities</string>
+    <string name="get_to">Pelajari Bahasa \nIsyarat Indonesia (BISINDO)</string>
+    <string name="hi_welcome">Hi!\nWelcome To \nIConnect</string>
+    <string name="cek_kamus">Cek Kamus</string>
+    <string name="translate_text">Terjemahkan Isyarat dengan Mudah Menggunakan Kamera</string>
+    <string name="coba_sekarang">Coba Sekarang</string>
+
+
+    <!--string tentang artikel (jangan dihapus)-->
+    <string-array name="data_tittle">
+        <item>Menggali Potensi Anak Disabilitas Tuli lewat Fun Drawing</item>
+        <item>Cerita Sasa Latih Anak Disabilitas Bisindo</item>
+        <item>Pelatihan Bahasa Isyarat Kunci Memberdayakan Penyandang Disabilitas</item>
+        <item>Alasan Insan Tuli Memilih Bahasa Isyarat Bisindo Ketimbang SIBI</item>
+        <item>Bahasa Isyarat Bantu Kemajuan Linguistik Tuna Rungu</item>
+        <item>Komunitas Bisindo Gelar Fun Drawing untuk Anak Tuli</item>
+        <item>Manfaat Belajar Bahasa Isyarat yang Perlu Kamu Ketahui</item>
+        <item>Kenali Ragam Manfaat Bahasa Isyarat</item>
+        <item>Mari Berbincang Tanpa Ragu</item>
+        <item>Musik bukan hanya untuk orang dengar</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item> KARAWANG – Komunitas Anak Tangguh Karawang dan Keluarga Bahasa Isyarat Indonesia (Bisindo) Strong Together menggelar kegiatan fun drawing bagi anak disabilitas tuli di Karawang.
+
+            Inten, Koordinator Penyelenggara kegiatan fun drawing menyebutkan, tujuan diadakan kelas menggambar ini untuk menggali potensi anak penyandang disabilitas sensorik (tuli) agar mereka bisa menyalurkan perasaan, ide dan gagasan melalui gambar.
+
+            “Fun drawing ini bagian dari acara kelas projek khusus anak tuli, salah satunya art. Semenjak COVID-19 baru pertama kali lagi, kalo dulu sering setahun 2 kali,” ujarnya kepada Tvberita.co.id pada Minggu, (28/5) di Fun Zone Area Lantai 5 Festive Walk Mall Karawang.
+
+            [Source : TvBerita.co.id]</item>
+        <item>
+            Profesi interpreter atau penerjemah bahasa isyarat bagi kaum disabilitas tuli masih tergolong langka. Dan Safita Maulidya adalah salah satunya. Mahasiswi Unesa jurusan Pendidikan Luar Biasa (PLB) ini sejak 2017 telah menekuni profesi sebagai interpreter.
+
+            “Saya mulai belajar bahasa isyarat sejak 2017. Awalnya saya hanya belajar untuk menambah ilmu saja. Tapi, setelah saya belajar, saya merasa tertarik dan ingin terus belajar bahasa isyarat,” ujar Safita kepada detikcom, Senin (24/5/2021).
+            Perjumpaan Sasa dengan komunitas tuli di sebuah acara car free day di Sidoarjo, menjadi awal ketertarikan Sasa menekuni bahasa isyarat.
+            Sasa memang sengaja memakai istilah tuli, bukan tuna rungu. Alasannya, kaum difabel ini merasa istilah tuna rungu lebih kasar, bermuatan belas kasihan.
+            "Istilah tuli bagi mereka justru lebih manusiawi," imbuh Sasa.
+            Bagi Sasa belajar bahasa isyarat tak terlalu sulit seperti yang dibayangkan kebanyakan orang. Alih-alih belajar dari buku maupun internet, Sasa justru memilih langsung berinteraksi dengan kaum tuli. Cara ini dianggap Sasa lebih mudah memahami bahasa isyarat. Hasilnya tak sampai satu bulan Sasa sudah mahir menjadi interpreter.
+
+            [Source : Detik.com]</item>
+
+        <item>
+            Kementerian Sosial (Kemensos) melalui Direktorat Jenderal Rehabilitasi Sosial (Dirjen Rehabilitasi Sosial) menggelar Pelatihan Bahasa Isyarat (Bisindo) bagi penyandang disabilitas di Hotel Grand Tjokro Jakarta, 15-17 Maret 2021.
+
+            Pelatihan ini diikuti oleh 30 orang penyandang disabilitas dari berbagai daerah di Indonesia. Mereka adalah para penyandang disabilitas yang telah mengikuti pelatihan sebelumnya dan telah memiliki sertifikat Bisindo.
+
+            Kepala Subdirektorat Pelayanan Sosial Penyandang Disabilitas Dirjen Rehabilitasi Sosial Kemensos, Siti Aisyah mengatakan, pelatihan ini bertujuan untuk meningkatkan kualitas pelayanan sosial bagi penyandang disabilitas.
+
+            “Pelatihan ini bertujuan untuk meningkatkan kualitas pelayanan sosial bagi penyandang disabilitas. Karena penyandang disabilitas ini memiliki keterbatasan dalam berkomunikasi, sehingga perlu adanya penerjemah bahasa isyarat,” ujar Siti Aisyah.
+
+            Siti Aisyah menambahkan, pelatihan ini juga bertujuan untuk meningkatkan kualitas hidup penyandang disabilitas. Dengan adanya penerjemah bahasa isyarat, penyandang disabilitas dapat berkomunikasi dengan orang lain.
+
+            “Dengan adanya penerjemah bahasa isyarat, penyandang disabilitas dapat berkomunikasi dengan orang lain. Sehingga mereka dapat berpartisipasi dalam kehidupan sosial,” tambahnya.
+
+            Siti Aisyah berharap, pelatihan ini dapat meningkatkan kualitas hidup penyandang disabilitas. Sehingga mereka dapat berpartisipasi dalam kehidupan sosial
+
+            Source : Republika.co.id</item>
+
+        <item>
+            TEMPO.CO, Jakarta - Kelompok penyandang disabilitas sensorik rungu meminta pemerintah kembali memperhatikan penggunaan bahasa isyarat dalam acara resmi kenegaraan. Pemerintah masih menggunakan Sistem Bahasa Isyarat Indonesia atau SIBI ketimbang Bahasa Isyarat Indonesia atau Bisindo. Salah satunya penerjemahan bahasa isyarat dalam upacara HUT RI ke-75 di Istana Negara secara virtual.
+
+            Insan tuli menyampaikan permintaan penggunaan Bisindo secara formal oleh pemerintah. Musababnya, Bisindo memiliki akar kata yang berasal dari Bahasa Indonesia. Sedangkan SIBI atau yang biasa digunakan dalam situasi formal sebelum Konvensi mengenai Hak-Hak Penyandang Disabilitas atau UNCRPD diratifikasi pada 2008, berasal dari bahasa isyarat Amerika atau American Sign Language.
+
+            Source : Tempo.com
+        </item>
+
+        <item>
+            KANAL24,Malang – Pusat Studi dan Layanan Disabilitas Universitas Brawijaya (PSLD UB) mengadakan webinar dengan tema “Pendidikan Literasi bagi Pemelajar Tuli” pada Sabtu (30/10/2021) secara daring. Pada kesempatan ini, hadir pemateri yaitu Rully Anjar Arifianto,S.Pd. yang memaparkan terkait “Teknik Pembelajaran bagi Pemelajar Tuli dengan Memanfaatkan Bahasa Isyarat.”
+
+            Rully mengatakan bentuk komunikasi manusia ada berbagai macam, ada auditory, ada verbal, ada visual, dan juga ada bahasa isyarat tetapi bahasa isyarat ini  masih sering dilewatkan dan bukan bahasa yang utama. Pada dasarnya, mempelajari bahasa isyarat ini penitng untuk kemajuan linguistik dari komunitas penyandang diabilitas tuna rungu.
+
+            “Jumlah tuli di Indonesia sebanyak 2.500.000 orang jadi jika memberikan pemahaman mengenai BISINDO (Bahasa Isyarat Indonesia) dalam tahapan sekolah otomatis anak-anak penyandang disabilitas tidak akan kesulitan dalam berkomunikasi baik dengan kelompoknya dan dengan orang dengar yang lain karena dengan BISINDO ini anak anak akan memiliki kecapakan bahasa yang baik., ujarnya.”
+
+            Ia menambahkan anak tuli adalah anak bilingual yang mempunyai dua bahasa yaitu bahasa isyarat sebagai bahasa ibu dan bahasa Indonesia tulis sebagai bahasa kedua dimana tata bahasa dalam bahasa Indonesia dan bahas isyarat itu berbeda. Dan sesuai surat yang dikeluarkan oleh Direktorat Jenderal Pendidikan Tinggi Kementerian Pendidikan, Kebudayaan, Riset, dan teknologi  yang menyatakan  bahwa sekolah luar biasa boleh menggunakan semua bahasa isyarat baik itu bahasa isyarat Indonesia maupun bahasa isyarat yang lain seperti bahasa isyarat Jakarta .
+
+            Source : Kanal24 Malang
+
+        </item>
+
+        <item>
+
+            KARAWANG- Komunitas Anak Tangguh Karawang dan Keluarga Bahasa Isyarat Indonesia (Bisindo) Strong Together gelar kegiatan fun drawing khusus untuk menggali potensi anak tuli di Karawang.
+
+            Inten, Koordinator Penyelenggara kegiatan fun drawing menyebutkan, tujuannya diadakan kelas menggambar ini tidak lain untuk menggali potensi anak penyandang disabilitas sensorik (tuli) agar mereka bisa menyalurkan perasaan, ide dan gagasan melalui gambar.
+
+            “Fun drawing ini bagian dari acara kelas projek khusus anak tuli, salah satunya art. Semenjak covid baru pertamakali lagi, kalo dulu sering setahun 2 kali,” ujarnya, Minggu, (28/5) di Fun Zone Area Lantai 5 Festive Walk Mall Karawang.
+
+            Source : Beritapasundan.com
+        </item>
+
+        <item>
+            1. Melatih otak
+            Dilansir dari Hear Me Out, belajar bahasa isyarat memiliki manfaat serta peran yang sangat penting dalam perkembangan otak.
+            Meskipun hal tersebut juga dapat kamu rasakan ketika mempelajari bahasa asing, yang membuat bahasa isyarat berbeda adalah karena melibatkan gerakan tangan dan otak untuk mengingat.
+
+            2. Meningkatkan kemampuan berkomunikasi
+            Bahasa isyarat dapat meningkatkan kemampuan berkomunikasi kamu. Bahasa isyarat juga dapat membantu kamu untuk berkomunikasi dengan orang-orang yang memiliki gangguan pendengaran.
+            3. Meningkatkan keterampilan sosial
+            Belajar bahasa isyarat dapat meningkatkan keterampilan sosial kamu. Hal ini karena kamu dapat berkomunikasi dengan orang-orang yang memiliki gangguan pendengaran.
+            4. Meningkatkan keterampilan kerja
+            Bahasa isyarat dapat meningkatkan keterampilan kerja kamu. Hal ini karena kamu dapat berkomunikasi dengan orang-orang yang memiliki gangguan pendengaran.
+            Source : Gadis.co.id
+        </item>
+
+        <item>
+            Manfaat Bahasa Isyarat
+            Teman tunarungu bisa menyimpulkan bahwa bahasa isyarat digunakan untuk komunikasi. Namun, penelitian menunjukkan bahasa isyarat ngga hanya bermanfaat bagi teman tunarungu, tetapi bisa bermanfaat luas. Manfaat itu diantaranya :
+
+            Membangun keterampilan komunikasi
+            Bagi teman tunarungu, penggunaan isyarat menjadi cara komunikasi yang efektif dan cepat. Menariknya, penelitian menunjukkan seseorang yang bisa menggunakan bahasa isyarat memiliki kemampuan lebih baik dalam membaca gestur, emosi dan aspek komunikasi lain. Di negara maju seperti Amerika Serikat, bahasa isyarat American Sign Language (ASL) menjadi satu pembelajaran khusus yang diberikan di banyak kampus.
+
+            Membangun Karakter
+            Mempelajari bahasa isyarat menjadikan individu lebih memahami keterbatasan dan kebutuhan teman tunarungu serta meningkatkan rasa kepedulian. Bagi anak normal belajar bahasa isyarat menjadi cara untuk menjembatani komunikasi dan menunjukkan rasa peduli dengan teman tunarungu
+            Source : Kompasiana.com
+        </item>
+
+        <item>
+            Siapa yang tak kenal dengan sign language atau biasa disebut bahasa isyarat? Di Indonesia sendiri, bahasa isyarat dibagi menjadi dua jenis yaitu BISINDO (Bahasa Isyarat Indonesia) dan SIBI (Sistem Bahasa Isyarat Indonesia).
+
+            Salah satu perbedaan BISINDO dan SIBI yang cukup terlihat, adalah BISINDO menggerakkan dua tangan untuk mengisyaratkan abjad, sedangkan SIBI hanya menggunakan satu tangan saja. Menarik sekali bukan?
+
+            Banyak orang yang kini sudah mulai mendorong kesadaran mengenai pentingnya mempelajari bahasa isyarat ini. Tidak hanya agar bisa berkomunikasi dengan kalangan tunarungu dan tunawicara, tapi menguasai bahasa isyarat pada dasarnya mampu memberi beragam keuntungan dan manfaat yang sangat penting.
+
+            Manfaat-manfaat yang didapatkan jika menguasai bahasa isyarat antara lain:
+
+            Memudahkan Komunikasi dengan Teman Tuli
+            Dengan mempelajari bahasa isyarat, kita bisa turut membantu orang lain, khususnya dari kalangan tunarungu. Karena menguasai bahasa tersebut dapat menjadi perantara dalam komunikasi teman tuli, maupun sekadar berbincang dan menjadi lawan bicaranya.
+
+            Meningkatkan Kesadaran pada Sekitar"
+            Bahasa isyarat ini jika dikuasai, dapat membuat orang sekitar mengetahuinya, secara tidak langsung kamu menyebarkan kesadaran dan kepedulian tentang pentingnya memahami bahasa tersebut? Saat melihat seseorang berkomunikasi dengan bahasa ini, biasanya mereka akan mempunyai keinginan untuk turut mempelajarinya.
+            Source : PartnerInc.com
+        </item>
+
+        <item>
+            Seiring ketersediaan aksesibilitas bagi Tuli yang sekarang mulai jadi perhatian banyak pihak, keinginan masyarakat luas untuk mempelajari BISINDO juga meningkat. Ini bisa dilihat dari semakin banyaknya konten media sosial yang isinya menunjukan non-Tuli mempraktikkan BISINDO, salah satunya untuk meng-cover lagu. Baik Jennifer maupun Rezki memandang hal ini sebagai hal yang positif.
+
+            “Tapi sebaiknya belajar BISINDO ke Tuli langsung, ya. Setelah semua oke dan BISINDO sesuai lirik, baru bisa buat cover lagu. Karena menerjemahkan lirik lagu ke BISINDO itu perlu konteks dan konsep yang sesuai,” pesan Jennifer. Rezki berpendapat serupa, “kalau upload video cover lagu pakai BISINDO itu kan berarti videonya untuk teman-teman Tuli, bukan untuk bangga-banggaan pribadi, jadi tentu harus benar supaya Tuli mengerti.”
+
+            Keduanya juga memberi tips untuk siapa pun yang mau belajar BISINDO, agar jangan sungkan mencari guru Tuli untuk mengajari. Saat ini guru-guru BISINDO Tuli sangat mudah ditemui melalui platform edukasi macam Parakerja dan Silang, atau komunitas Tuli lokal. Pasalnya, jika tidak belajar langsung dari Tuli, bisa jadi konsep bahasa yang dipahami tidak utuh dan akan sulit untuk praktik langsung berkomunikasi dengan Tuli.
+
+            “Seperti kita belajar bahasa Inggris, memang bisa dari guru sesama orang Indonesia, tapi kalau dari native speaker-nya langsung kan beda; kita jadi paham bagaimana berkomunikasi dengan bahasa Inggris secara natural, bagaimana agar pelafalan kata-kata bahasa Inggris kita benar, dan apa saja istilah-istilah yang dipakai dalam percakapan sehari-hari. Sama dengan BISINDO, akan lebih baik kalau belajar langsung dari Tuli,” jelas Rezki lagi. Di samping itu, bahasa isyarat pun bermanfaat untuk orang dengar karena bisa menjadi solusi untuk berkomunikasi dalam kondisi tertentu, misalnya di tengah kegaduhan konser.
+
+            Nah, setelah dapat sedikit gambaran tentang aksesibilitas bagi Tuli, penasaran nggak kira-kira bagaimana dunia hiburan bisa menjadi ruang inklusif bagi teman-teman disabilitas lainnya? TFR akan lanjut membahas isu ini lewat seri “Hiburan untuk Semua” yang akan terbit dalam beberapa minggu ke depan. Nantikan bagian selanjutnya, ya!
+
+        </item>
+
+    </string-array>
+
+
+    <string-array name="data_photo_urls">
+        <item>https://www.imghippo.com/images/1701414295.jpg</item>
+        <item>https://www.imghippo.com/images/1701414390.jpg</item>
+        <item>https://www.imghippo.com/images/1701414433.jpg</item>
+        <item>https://www.imghippo.com/images/1701414466.jpg</item>
+        <item>https://www.imghippo.com/images/1701414504.jpg</item>
+        <item>https://www.imghippo.com/images/1701414528.jpg</item>
+        <item>https://www.imghippo.com/images/1701414547.jpg</item>
+        <item>https://www.imghippo.com/images/1701414565.jpg</item>
+        <item>https://www.imghippo.com/images/1701414583.jpg</item>
+        <item>https://www.imghippo.com/images/1701414605.jpg</item>
+    </string-array>
+
+</resources>

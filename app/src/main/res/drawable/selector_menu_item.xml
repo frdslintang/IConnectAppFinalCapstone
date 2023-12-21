@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/selector_menu_item.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <color android:color="@color/green_primary" />
+    </item>
+    <item android:state_checked="false">
+        <color android:color="@color/grey" /> <!-- Warna default ketika tidak dipilih -->
+    </item>
+</selector>

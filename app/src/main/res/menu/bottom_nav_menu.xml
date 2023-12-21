@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home"
+        android:title="Beranda"
+        app:itemIconTint="@drawable/selector_menu_item"
+        app:itemTextColor="@drawable/selector_menu_item"
+        />
+
+    <item
+        android:id="@+id/navigation_articel"
+        android:icon="@drawable/ic_article"
+        android:title="Artikel"
+        app:itemIconTint="@drawable/selector_menu_item"
+        app:itemTextColor="@drawable/selector_menu_item"/>
+    <item
+        android:id="@+id/navigation_dictionary"
+        android:icon="@drawable/ic_dictionary"
+        android:title="Kamus"
+        app:itemIconTint="@drawable/selector_menu_item"
+        app:itemTextColor="@drawable/selector_menu_item"/>
+
+    <item
+        android:id="@+id/navigation_translator"
+        android:icon="@drawable/ic_translate"
+        android:title="Terjemahan"
+        app:itemIconTint="@drawable/selector_menu_item"
+        app:itemTextColor="@drawable/selector_menu_item"
+        />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="Profil"
+        app:itemIconTint="@drawable/selector_menu_item"
+        app:itemTextColor="@drawable/selector_menu_item"/>
+</menu>
